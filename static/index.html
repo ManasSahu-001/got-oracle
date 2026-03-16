@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game of Thrones — Oracle of Westeros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       NAVBAR / TOP BANNER
+  ═══════════════════════════════════════════════ -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-sigil left">❖</div>
+      <div class="nav-brand">
+        <span class="nav-title-top">THE ORACLE OF</span>
+        <span class="nav-title-main">WESTEROS</span>
+        <span class="nav-title-sub">Ask. Seek. Know.</span>
+      </div>
+      <div class="nav-sigil right">❖</div>
+    </div>
+    <div class="navbar-divider">
+      <span class="divider-line"></span>
+      <span class="divider-icon">⚔</span>
+      <span class="divider-line"></span>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tagline">"When you play the game of thrones, you win or you die."</p>
+      <p class="hero-sub">— Ask the Oracle anything about the world of Ice and Fire</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       MAIN THREE-COLUMN GRID
+  ═══════════════════════════════════════════════ -->
+  <main class="main-grid">
+
+    <!-- ── LEFT: CHARACTER BOX CARDS ─────────────── -->
+    <aside class="left-panel">
+      <h2 class="panel-title">
+        <span class="title-deco">◈</span> Lords of Westeros <span class="title-deco">◈</span>
+      </h2>
+
+      <div class="cards-grid">
+
+        <div class="character-card" data-house="stark">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            
+            <img src="https://wallpapercat.com/w/full/4/f/8/811900-2000x2400-phone-hd-jon-snow-background-photo.jpg" alt="Jon Snow" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">🐺</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Jon Snow</span>
+            <span class="card-house">House Stark</span>
+            <span class="card-words">"Winter is Coming"</span>
+          </div>
+        </div>
+
+        <div class="character-card" data-house="lannister">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            <img src="https://i.pinimg.com/736x/84/e4/63/84e4634bf2397e3b0ebe250dc2e66885.jpg" alt="Jaime Lannister" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">🦑</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">"Jaime Lannister"</span>
+            <span class="card-house">"House Lannister"</span>
+            <span class="card-words">"A Lannister Always Pays"</span>
+          </div>
+        </div>
+
+         <div class="character-card" data-house="lannister">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjsrMFqWy4bUsiDQgnykFMycoC1XJeZDJoQ&s" alt="Tyrion Lannister" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">🦁</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Tyrion Lannister</span>
+            <span class="card-house">House Lannister</span>
+            <span class="card-words">"Hear Me Roar"</span>
+          </div>
+        </div>
+
+        <div class="character-card" data-house="targaryen">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            <img src="https://external-preview.redd.it/everything-a-new-closer-look-of-daenerys-in-her-new-throne-v0-yC6DXusapDxIMNKjiYfvCd25cIEd_3V-UGckD7eedHY.jpg?auto=webp&s=17578daab10bb2c906d7ade8981fecffcbd5d246" alt="Daenerys" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">🐉</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Daenerys Targaryen</span>
+            <span class="card-house">House Targaryen</span>
+            <span class="card-words">"Fire and Blood"</span>
+          </div>
+        </div>
+
+        <div class="character-card" data-house="baratheon">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJrisS1BLfRrCVDPrRVzmufE5Xx5gHkbmZA&s" alt="Robert Baratheon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">🦌</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Robert Baratheon</span>
+            <span class="card-house">House Baratheon</span>
+            <span class="card-words">"Ours is the Fury"</span>
+          </div>
+        </div>
+
+        <div class="character-card" data-house="greyjoy">
+          <div class="flame-border"></div>
+          <div class="card-photo-box">
+            <img src="https://i.pinimg.com/736x/60/f9/7b/60f97bc674f60010dc6ae6de19805353.jpg"" alt="Theon Greyjoy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="card-photo-fallback">☀️</div>
+          </div>
+          <div class="card-info">
+            <span class="card-name">Theon Greyjoy</span>
+            <span class="card-house">House Greyjoy</span>
+            <span class="card-words">"We Do Not Sow"</span>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- ── MIDDLE: CHAT INPUT ─────────────────────── -->
+    <section class="chat-panel">
+      <div class="chat-panel-inner">
+
+        <div class="chat-header">
+          <span class="chat-header-icon">🔮</span>
+          <span class="chat-header-text">Consult the Oracle</span>
+          <span class="chat-header-icon">🔮</span>
+        </div>
+
+        <div class="chat-status" id="statusBar">
+          <span class="status-dot" id="statusDot"></span>
+          <span id="statusText">Oracle is ready</span>
+        </div>
+
+        <div class="chat-input-area">
+          <textarea
+            id="questionInput"
+            class="chat-textarea"
+            placeholder="Speak your question to the Oracle of Westeros..."
+            rows="5"
+          ></textarea>
+
+          <button class="ask-btn" id="askBtn" onclick="askOracle()">
+            <span class="btn-text">Seek the Answer</span>
+            <span class="btn-icon">⚔</span>
+            <div class="btn-shimmer"></div>
+          </button>
+
+          <button class="clear-btn" onclick="clearAll()">
+            Clear the Scroll
+          </button>
+        </div>
+
+        <div class="quick-questions">
+          <p class="quick-label">Ask the Oracle:</p>
+          <button class="quick-btn" onclick="setQuestion('Who is Jon Snow?')">Who is Jon Snow?</button>
+          <button class="quick-btn" onclick="setQuestion('What is the Iron Throne?')">The Iron Throne</button>
+          <button class="quick-btn" onclick="setQuestion('Tell me about dragons in Westeros')">About Dragons</button>
+          <button class="quick-btn" onclick="setQuestion('Who are the White Walkers?')">White Walkers</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── RIGHT: ANSWER OUTPUT ───────────────────── -->
+    <section class="answer-panel">
+      <h2 class="panel-title">
+        <span class="title-deco">◈</span> The Oracle Speaks <span class="title-deco">◈</span>
+      </h2>
+
+      <div class="answer-scroll" id="answerScroll">
+
+        <div class="answer-empty" id="emptyState">
+          <div class="empty-icon">📜</div>
+          <p class="empty-text">The scroll awaits your question...</p>
+          <p class="empty-sub">Speak to the Oracle and wisdom shall be revealed</p>
+        </div>
+
+        <div class="chat-bubbles" id="chatBubbles"></div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-divider">
+      <span class="divider-line"></span>
+      <span class="divider-icon">⚔</span>
+      <span class="divider-line"></span>
+    </div>
+    <div class="footer-inner">
+      <p class="footer-text">Oracle of Westeros &nbsp;|&nbsp; Powered by RAG Engine Pipeline</p>
+    </div>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

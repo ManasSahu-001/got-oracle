@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf
+sentence-transformers
+python-multipart
+wikipedia-api
+python-dotenv
+transformers
+huggingface-hub
+langchain-google-genai
